@@ -7,30 +7,46 @@
     <meta name="keywords" content="резюме, свеженцев николай,">
     <meta name="description" content="Резюме Свеженецев Николай. 1991 год рождения."> 
     <title>Свеженцев Николай</title>
-
-
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <img src="images/image1.jpeg" width="250" alt="my photo">
+  <div class="container">
+  <div class="info">
+  <img src="images/image1.jpeg" class="avatar" alt="my photo">
+
+  <div class="card info-text">
   <h1>Николай Свеженцев</h1>
-  <br>
   <p>  Мне 31 год. Я женат и у меня есть сын, ему 4 года. <strong>Сейчас в Украине идет война.</strong> 
-    До войны мое основное дело было – студия доставки букетов по Киеву. После войны, я начал изучать программирование. <em>И сейчас я это делаю!</em>  </p>  
-    <hr>
+    <br>
+    До войны мое основное дело было – студия доставки букетов по Киеву.   
+     <br>
+    После войны, я начал изучать программирование. <em>И сейчас я это делаю!</em>  </p>  
+  </div>
+</div>
+    <div class="card social">
     <h2>Мои социальные сети</h2>
       <a href="https://www.instagram.com/nikolayfreshsv/" target="_blank">INSTAGRAM</a>
       |
       <a href="https://www.facebook.com/svezhentsev"target="_blank">FACEBOOK</a>
       <br>
       <a href="page2.html">Open page2</a>
-    <h2>Мои хобби</h2>
-    <ul>
+    </div>
+   
+    
+
+    <div class="card interest">
+      <h2>Мои хобби</h2>
+    <ul class="list">
       <li>Катаюсь каждый год на лыжах</li>
       <li>Хожу в баню каждую среду</li>
       <li>Летом катаемся с женой и ребенком на велосипеде</li>
       <li>Увлекаюсь торговлей на фондовом рынке</li>
       <li>Изучаю программирование</li>
     </ul>
+  </div>
+  <div class="card work">
+
 <h2>Опыт работы</h2>
 <table>
   <thead>
@@ -48,7 +64,9 @@
     </tr>
   </tbody>
 </table>
+</div>
 
+<div class="card contact">
 <h2>Связаться со мной</h2>
 
 <form >
@@ -67,7 +85,9 @@
     <br>
     <textarea id="message" cols="30" rows="10"></textarea>
   </div>
-  <input type="submit" value="Отправить форму">
+  <input type="submit"value="Отправить форму" class="button">
 </form>
+</div>
+</div>
 </body>
 </html> 
